@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 03</title>
+</head>
+<body>
+    <div id="conteudo">
+ 
+        <header></header>
+        <nav>
+            <a href="index.html">Form_1 |</a>
+            <a href="pag02.html">Form_2 |</a>
+        </nav>
+        <section>
+            <h1>Formulário 2</h1>
+            <form action="" method="get">
+                <fieldset>
+                    <legend> Dados Pessoais </legend>
+                        <label for="nome">Nome: </label><input type="text" name="nome" id="nome"
+                               size="50" maxlength="100" required>
+                        <label for="idade">Idade: </label><input type="text" name="idade" id="idade"
+                                size="2" maxlength="3" required autofocus="autofocus">
+                        <label for="cpf">CPF: </label><input type="text" name="cpf" id="cpf"
+                                pattern="[0-9]{9}+-[0-9]{2}" size="10" maxlength="12" placeholder="xxxxxxxxx-xx">
+                </fieldset>
+                <fieldset>
+                    <legend> Endereço </legend>
+                        <label for="log">Logradouro: </label><input type="text" name="log" id="log"
+                                placeholder="Rua, Avenida ...">
+                        <label for="bairro">Bairro: </label><input type="text" name="bairro" id="bairro">
+                        <label for="cidade">Cidade: </label><input type="text" name="cidade" id="cidade">
+                        <label for="uf">UF: </label><input type="text" name="uf" id="uf" 
+                                readonly>
+                        <label for="cep">CEP: </label><input type="text" name="cep" id="cep"
+                                disabled>
+                </fieldset>
+                <br/><br/>
+                <input type="button" value="Salvar">
+                <br/><br/><br/><br/>
+
+                <fieldset>
+                    <legend>LISTA</legend>
+                        <label for="preferida">Fruta Preferida: </label>
+                            <input list="fruta" name="preferida">
+                            <datalist id="fruta"> 
+                                <option value="banana">Banana</option>
+                                <option value="maça">Maça</option>
+                                <option value="uva">Uva</option>
+                                <option value="mamão">Mamão</option>
+                            </datalist>
+                        
+                        &nbsp;
+                        <label for="preferida">Comida Preferida: </label>
+                            <select id="comida">
+                                <option value=""></option>
+                                <option value="Sushi">Suchi</option>
+                                <option value="Churrasco">Churrasco</option>
+                                <option value="Pastel">Pastel</option>
+                                <option value="Macarrão">Macarrão</option>
+                                <option value="Lasanha">Lasanha</option>
+                            </select>    
+
+                        &nbsp;
+                        <label for="bebida"> Bebida </label>
+                        <select id="bebida">
+                            <option value=""></option>
+                            <optgroup label="Refrigerante">
+                                <option value="Coca-Cola">Coca-Cola</option>
+                                <option value="Guaraná">Guaraná</option>
+                                <option value="Fanta">Fanta</option>
+                            </optgroup>
+
+                            <optgroup label="Suco">
+                                <option value="Maça">Maça</option>
+                                <option value="Laranja">Laranja</option>
+                                <option value="Maracujá">Maracujá</option>
+                            </optgroup>
+                        </select>                         
+                </fieldset>
+
+                <label>Escreva sua opnião: </label><br/>
+                <textarea name="opiniao" id="ipniao" cols="50" rows="5"></textarea>
+
+                <input type="submit" value="Salvar">
+            </form>
+            <br/>
+            <button type="button">
+                <img src="img/Judyhopps.png" alt="Judy Hopps (coelha) de Zootopia" title="Judy Hopps"
+                width="80" height="100">
+            </button>
+
+            
+    
+        </section>
+        <footer></footer>
+           
+    </div>
+
+</body>
+</html>

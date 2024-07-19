@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 03 - Forms</title>
+</head>
+<body>
+    <div id="conteudo">
+        <header></header>
+        <nav>
+            <a href="index.html">Form_1 |</a>
+            <a href="pag02.html">Form_2 |</a>
+        </nav>
+        <section>
+            <h1>Formulário 1</h1>
+            <form action="" method="get"> <!-- get: vai na url / post: não vai -->
+            
+                <label for="arq">Arquivo: </label><input type="file" name="arq" id="arq">
+                <br/>
+                <label for="email">Email: </label><input type="email" name="mail" id="mail">
+                <br/>
+                <label for="senha">Senha: </label><input type="password" name="senha" id="senha">
+                <br/>
+                <label for="data">Data: </label><input type="date" name="data" id="data">
+                <br/><br/>
+
+                <input type="image" src="https://upload.wikimedia.org/wikipedia/en/9/96/Zootopia_%28movie_poster%29.jpg" 
+                        alt="capa do filme Zootopia" title="Zootopia"
+                        onclick="alert('Me assista!!!')">
+
+                        &nbsp; <!-- espaço em branco -->
+                <input type="submit" value="Salvar">  
+            </form>      
+
+        </section>
+        <footer></footer>
+    </div>
+</body>
+</html>
