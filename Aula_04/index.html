@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 04</title>
+
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+<body>
+    <div id="conteudo">
+        <header><h1>CSS</h1></header>
+        <nav>
+            <a href="index.html">SELETORES</a>
+            <a href="boxModel.html">BOX MODEL</a>
+        </nav>
+        <section>
+            <h2>SELETORES</h2>
+            <h3 class="subtitulo">Seletor Universal</h3>
+            <p>* -> universal (seleciona tudo)</p>
+            <p class="cor_azul">Modo de uso: * {propriedade: valor} -> *{font-sise: 22px}  // elemento * {prop: valor} -> p* = para todo elemento p</p>  
+            <br/><br/>
+
+            <h3 class="subtitulo">Seletor Tipo</h3>
+            <p class="cor_verde">Mode de uso: elemento {propriedade: valor} -> h3{cor: red}</p>
+            <br/><br/>
+
+            <h3 class="subtitulo">Seletores Agrupados</h3>
+            <p>, -> separar grupo de TAGs com vírgula</p>
+            <p class="cor_rosa">Modo de uso: elemento, elemento, elemento {prop: valor} -> h1, h2, p {color: blue}</p>
+            <br/><br/>
+
+            <h3 class="subtitulo">Seletor Descendente</h3>
+            <p>Defini a configuração para um elemento (tag) que está dentro de uma certa sequência de outros elementos (hierarquia).</p>
+            <p class="cor_laranja">Modo de Uso: tag_1 tag_2(dentro da tag_1) {prop: valor} -> div p {font-family: Arial...}</p>
+            <br/><br/>
+
+            <h3 class="subtitulo">Classes e estilos individuais</h3>
+            <p>Uma classe pode ser associada a um elemento (tag). Com isso, podemos aplicar diferentes formatos no mesmo elemento, 
+                bastando chamar as respectivas classes.
+            </p>
+            <p>Modo de uso: elemento . nome-da-classe {prop: valor} -> p.cor_rosa {color: pink}</p>
+            <br/><br/>
+
+            <h3 class="subtitulo">Seletor Classe (genérico)</h3>
+            <p> . -> usado antes do nome da classe</p>
+            <p>Modo de uso: . nome-da-classe {prop: valor} -> .subtitulo {text-align: center}</p>
+            <br/><br/>
+
+            <h3 class="subtitulo">Seletor ID</h3>
+            <p># -> usado antes do nome do ID</p>
+            <p>Modo de uso: # nome-da-classe {prop: valor} -> #conteudo {text-align: justify}</p>
+
+        </section>
+        <footer>
+            Desenvolvido para fins educativos <br/>
+            por Judy Faria em 22/07/2024 <br/>
+            Programa Twist - Tecgraf Puc-Rio
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,88 @@
+/*Seletor Universal*/
+* p{
+    font-size: 20px;
+}
+
+/*Seletor Tipo*/
+h3{
+    color: red;
+}
+
+/*Seletor Agrupados*/
+h1, h2, footer {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+/*Seletor Descendente*/
+#conteudo p{
+    color: blue;
+}
+
+/*Seletor Class - individual*/
+p.cor_rosa{
+    color: palevioletred;
+}
+
+p.cor_verde{
+    color: green;
+}
+
+p.cor_laranja{
+    color: orange;
+}
+
+p.cor_azul{
+    color: azul;
+}
+
+/*Seletor Classe*/
+.subtitulo{
+    text-align: center;
+}
+
+/*Seletor ID*/
+#conteudo{
+    text-align: justify;
+}
+
+/*______________________________________________________________________________________*/
+
+#conteudo_boxModel{
+    margin-top: 90;
+    margin-bottom: 100;
+    margin-left: 500;
+    margin-right: 130;
+}
+
+/*margin: 10xp 20xp 30xp 40xp -> 10xp = top / 20xp = right / 30xp = left / 40xp = bottom*/
+/*margin: 10xp 20xp 30xp -> 10xp = top / 20xp = right, left / 30xp = bottom*/
+/*margin: 10xp 20xp -> 10xp = top, bottom / 20xp = right, left*/
+/*margin: 10xp -> 10xp = top, right, left, bottom*/
+
+.tamanhoPequeno{
+    width: 25%;
+    height: 15%;
+    margin-left: 0%;
+}
+
+img{
+    width: 700px;
+    height: 350px;
+    margin-left: 25%;
+    margin-right: 25%;
+
+    padding: 50px;
+    border: 100px;
+    border-color: aqua;
+}
+
+
+#conteudo_boxModel {
+    margin-top: 90px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 130px;
+}
+
+
