@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(38, 0, 255);
+}
+
+#conteudo{
+    background-color: aquamarine;
+}
+
+figure{
+    border: 2px red;
+    border-style: dashed;
+    text-align: center;
+    display: inline-block;
+    padding: 20px; /*bordar interna*/
+}
+
+p{
+    font-size: 22px;
+}
+
+/*Seletor Atributo*/
+
+* [src $= "png"]{ /*Para todo atributo scr que terminar com essa extensão*/
+background-color: rgb(194, 19, 19);
+width: 300px;
+height: 400px;
+}
+
+* [src $= webp]{
+    width: 700px;
+    height: 400px;
+}
+
+* [ src *= "judy"]{
+    width: 300px;
+    height: 500px;
+}
+
+* [ src *= "Hopps"]{
+    width: 400px;
+    height: 500px;
+}
+
+p.conf{ /*Parágrafo e figure na mesma linnha. Precisa configurar a largura e altura do p e colocar o display: inline-block no figure colocar dispaly: inline-block*/
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+}
+
+* [href $= "/"]{
+
+}
