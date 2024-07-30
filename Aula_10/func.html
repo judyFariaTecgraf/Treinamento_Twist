@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 10</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts/func.js"></script>
+
+    <script>
+        // primeira forma
+        window.onload = function(){
+            let btn = document.querySelector("#btnExemplo2");
+            console.log(btn);
+
+            btn.onclick = function(){
+                alert("Teste botão")
+            }
+            console.log(btn)
+        }
+
+        // segunda forma
+        window.addEventListener("load", function(){
+            let texto = document.querySelector("#textExemplo1")
+            console.log(texto);
+            texto.addEventListener
+        })
+
+    </script>
+
+</head>
+<body>
+    <div id="conteudo">
+        <header id="header">
+
+        </header>
+        <nav id="navigator">
+            <a href="index.html">Break</a>
+            <a href="array.html">Array</a>
+            <a href="func.html">Função</a>
+        </nav>
+        <section id="main">
+            
+            <form action="">
+                <p id="textExemplo1">
+                    Exemplo w/ texto
+                </p>
+              
+                <button style="background-color: aqua;" id="btnExemplo2">
+                    btnExemplo2
+                </button>
+            </form>
+
+        </section>
+        <footer id="footer"></footer>
+    </div>
+
+    <script>
+        // // chamada primeira função
+        // CalcQuadrado();
+
+        // // chamada segunda função
+        // CalcRetangulo(10, 8)
+
+        // // chama terceira função - com retorno
+        // let resp = CalcTriangulo(10, 8)
+        // console.log(resp)
+
+        // // chama terceira função 
+        // let resp1 = CalcTrapezio()
+        // console.log(resp1)
+
+
+    </script>
+
+</body>
+</html>
