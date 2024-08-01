@@ -1,0 +1,33 @@
+body{
+    background-color: darkgray;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+
+    width: 736;
+    height: 1308;
+}
+
+.story{
+    max-width: 380px;
+    margin: 20px auto; /* 20px - top e bottom / auto - right e left */
+}
+
+.itens-story{
+    position: relative;
+}
+
+.itens-story > *{
+    top: 0px;
+    position: absolute;
+    opacity: 0; /* esconde */
+    pointer-events: none;
+}
+
+.itens-story > .ativo{
+    position: relative;
+    opacity: 1; /* aparece */
+    pointer-events: initial;
+}

@@ -139,6 +139,10 @@ nav a:hover{
         padding: 0rem 0rem;
     } 
 
+    #posts-conteiner{
+        width: 400px;  
+    }
+
     .bottom-nav{
         position: fixed;
         bottom: 0;
@@ -184,9 +188,9 @@ nav a:hover{
     justify-content: space-between;
 }
 
-#suggested-for-you {
+/* #suggested-for-you {
     width: 40%;
-}
+} */
 
 .story-post{
     display: flex;
@@ -202,7 +206,7 @@ nav a:hover{
 
 /*Stories*/
 #stories-conteiner{
-    width: 60vw;
+    width: 350px;
     display: flex;
     justify-content: center;
     overflow-x: auto;
@@ -281,8 +285,8 @@ nav a:hover{
 
 .post{
     margin-bottom: 10px;
-    padding: 10px;
-    width: 350px;
+    padding: 15px;
+    width: 400px;
 
     border-bottom: 1px solid lightgray;
 }
@@ -299,6 +303,7 @@ nav a:hover{
     justify-content: flex-start;
     align-items: center;
     gap: 0.5rem;
+    padding-bottom: 10px;
 }
 
 .foto-perfil{
