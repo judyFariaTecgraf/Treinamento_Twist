@@ -1,0 +1,39 @@
+#conteudo{
+
+}
+
+#header{
+
+}
+
+#navigator{
+
+}
+
+#main{
+
+}
+
+#calc{
+    background-color:aquamarine;
+    display:grid; 
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+#footer{
+
+}
+
+.espaco{
+    padding: 2% 1%;
+    margin: 2% 0.5%;
+}
+
+.btn{
+    width: 10%;
+    text-align: center;
+    padding: 2% 1%;
+    margin: 2% 0.5%;
+}
